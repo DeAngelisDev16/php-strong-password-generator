@@ -10,8 +10,10 @@
 
 <body>
     <?php
-    $password = $_GET['password'];
+    $password = ($_GET['password']);
     ?>
+
+
 
 
 
@@ -20,6 +22,13 @@
         <button type="submit">Clicca</button>
 
     </form>
+
+    <h2>
+        <?php
+        echo strlen($password);
+        ?>
+
+    </h2>
 
 
 </body>
