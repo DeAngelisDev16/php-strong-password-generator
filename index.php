@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    $password = ($_GET['password']);
+    $password = $_GET["password"];
     ?>
 
 
@@ -25,7 +25,10 @@
 
     <h2>
         <?php
-        echo strlen($password);
+        //convert_uuencode(); 
+        //echo strlen($password);
+        echo convert_uuencode($password);
+
         ?>
 
     </h2>
