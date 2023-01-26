@@ -9,7 +9,18 @@
 </head>
 
 <body>
-    <h1>ciao</h1>
+    <?php
+    $password = $_GET['password'];
+    ?>
+
+
+
+    <form action="index.php" method="get">
+        <input type="text" name="password">
+        <button type="submit">Clicca</button>
+
+    </form>
+
 
 </body>
 
